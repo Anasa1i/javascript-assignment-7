@@ -35,5 +35,73 @@
 // document.write(fullName)
 
 //           QUESTION NO 7
+// Write a program to replace the “Hyder” to “Islam” in the 
+// word “Hyderabad” and display the result in your browser.
 
+// var wordddd = "Hyderabad";
+//                        //    iski jgah, isko add kr rha
+// var foundNew = wordddd.replace("Hyder","Islam");
+// document.write(`City: ${wordddd} <br>After Replacement:${foundNew}`)
+
+//           QUESTION NO 8
+// Write a program to replace all occurrences of “and” in the 
+// string with “&” and display the result in your browser. 
+
+// var message = "Ali and Sami are best friends. They play cricket and football together."
+// var replace = message.replaceAll("and","&")  
+// document.write(`${replace}`)
+
+//           QUESTION NO 9
+
+// Write a program that converts a string “472” to a number 
+// 472. Display the values & types in your browser. 
+
+// var num1 = "472";
+// var converts = typeof num1;
+// document.write(`Value : ${num1} <br>Type: ${converts}`)
+// var num2 = 472;
+
+// var num2 = 472;
+// var converts2 = typeof num2;
+// document.write(`<br>Value : ${num2} <br>Type: ${converts2}`)
+
+
+//           QUESTION NO 10
+
+// Write a program that takes user input. Convert and 
+// show the input in capital letters.
+
+// var userInp1 = prompt("write a peanut");
+// var final1 = userInp1.toUpperCase();
+// document.write(final1)
+
+//           QUESTION NO 11
+// Write a program that takes user input. Convert and 
+// show the input in title case.
+
+// var string = prompt("Enter a input:");
+// console.log(string); // MY PROMPT - asad - output will be the same "asad"
+
+// var first = string.charAt(0); // they word as a Select its full mean is CHARASTER AT 01234 etc etc
+// console.log(first); // output will be the same "a"
+// console.log(first.toUpperCase()) // output will be the same "A"
+
+// var rem = string.slice(1)  // they word as a Minus its full mean is slice krna mtlb ek 1 slice hai pizza ka ek kism se piece karna he hai define bhi krna lazmi for example 1 
+// console.log(rem); // output will be the same "sad"
+
+// var conc = first.toUpperCase() + rem; // A + sad = istrhn apas mei + hojyngy..
+// console.log(`Final: ${conc}`)  // Final output will be show Final: Asad
+
+
+//           QUESTION NO 12
+// Write a program that converts the variable num to 
+// string. 
+// Remove the dot to display “3536” display in your browser. 
+
+// var num = 35.36; // NUMBER
+// var str = num.toString(); // TURN THIS INTO STRING VALUE "35.36"
+// var final = str.replace(".","") // replace "." to empty " "
+// console.log(final) // output 3536
+
+//           QUESTION NO 13
 
